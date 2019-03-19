@@ -1,0 +1,40 @@
+{
+  "name": "callRiskDetection",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --mode development",
+    "build": "webpack --progress --hide-modules --mode production"
+  },
+  "author": "sunny",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.14",
+    "postcss-loader": "^3.0.0",
+    "px2rem-loader": "^0.1.9",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "file-loader": "^3.0.1",
+    "lib-flexible": "^0.3.2",
+    "qs": "^6.6.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.1.2"
+  }
+}
